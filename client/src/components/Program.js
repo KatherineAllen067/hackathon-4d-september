@@ -6,11 +6,20 @@ function Program(){
     return(
         <>
         <div className="program">
-            <h1 className="program-title">Program</h1>
+            <h1 className="program-title">How it Works</h1>
             <div className="program-box">
-                <div className="program-card">card</div>
-                <div className="program-card">card</div>
-                <div className="program-card">card</div>
+                <div className="program-card">
+                    <h2>Earn</h2>
+                    <span></span>
+                </div>
+                <div className="program-card">
+                    <h2>Redeem</h2>
+                    <span></span>
+                </div>
+                <div className="program-card">
+                    <h2>Enjoy</h2>
+                    <span></span>
+                </div>
             </div>
         </div>
         </>
