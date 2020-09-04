@@ -1,0 +1,24 @@
+@import './_fonts.scss';
+@import './_mixins.scss';
+@import './partials.scss';
+
+
+.program{
+    font-family:$bold;
+    width:$full;
+    height:550px;
+    color:$white;
+    background-color:$skiporange;
+}
+
+.program-box{
+    width:$full;
+    display:flex;
+    justify-content: $even;
+}
+
+.program-card{
+    width:13rem;
+    height:18rem;
+    background-color:$white;
+}
