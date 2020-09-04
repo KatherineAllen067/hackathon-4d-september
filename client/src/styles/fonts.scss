@@ -1,5 +1,11 @@
 @font-face {
-	font-family: "titillium-regular";
-	src: url("../assets/fonts/titillium-regular.ttf") format("truetype");
+	font-family: "avenir-bold";
+	src: url("../assets/avenir-bold.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "avenir-regular";
+	src: url("../assets/avenir-regular.otf") format("opentype");
 	font-weight: normal;
 }
