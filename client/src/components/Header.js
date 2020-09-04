@@ -1,5 +1,9 @@
 import React from 'react';
 import '../styles/Header.scss';
+import Logo from '../assets/icons/SkipLogo.png';
+import Help from '../assets/icons/need-help.png';
+import Ask from '../assets/icons/ask.png';
+import Login from '../assets/icons/Login.png';
 
 
 function Header (){
@@ -7,11 +11,11 @@ function Header (){
     return(
         <>
         <div className="header">
-            <h1 className="header-logo">Header</h1>
+            <img src={Logo}  alt="Logo" className="header-logo"/>
             <div className="header-right">
-                <span className="header-right_icon">Need Help?</span>
-                <span className="header-right_icon">FR</span>
-                <span className="header-right_icon">Login</span>
+                <img src={Help} alt="help" className="header-right_icon"/>
+                <img src={Ask} alt="ask" className="header-right_icon--1"/>
+                <img src={Login} alt="login" className="header-right_icon"/>
             </div>
         </div>
         </>

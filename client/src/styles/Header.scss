@@ -15,7 +15,23 @@
 }
 
 .header-right{
-    width:300px;
+    width:375px;
     display:flex;
     justify-content: $even;
+}
+
+.header-logo{
+    width:9rem;
+    
+}
+
+.header-right_icon{
+    width:8rem;
+    height:3rem;
+    
+}
+
+.header-right_icon--1{
+    width:6rem;
+    
 }
