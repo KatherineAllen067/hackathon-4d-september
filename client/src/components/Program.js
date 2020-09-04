@@ -17,12 +17,12 @@ function Program(){
                     <span>Every-time you order from local restaurants you earn dishes.</span>
                 </div>
                 <div className="program-card">
-                    <img src={Enjoy} alt="enjoy" className="icon2"/>
+                    <img src={Redeem} alt="enjoy" className="icon2"/>
                     <h2>Redeem</h2>
                     <span>Get your favourite things for free. Cash in your dishes for delicious rewards and merchandise.</span>
                 </div>
                 <div className="program-card" >
-                    <img src={Redeem} alt="redeem" className="icon2"/>
+                    <img src={Enjoy} alt="redeem" className="icon2"/>
                     <h2>Enjoy</h2>
                     <span>Sit back and enjoy your goodies. Support local businesses has never been so rewarding.</span>
                 </div>
