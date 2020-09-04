@@ -3,7 +3,7 @@ import React from "react";
 function Data() {
   return (
     <>
-      <h1>Data</h1>
+      <h1>Map of Local Resturants</h1>      
     </>
   );
 }
