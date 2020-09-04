@@ -21,7 +21,6 @@ function App() {
     <Program />
     {/* TBD */}
     <Data />
-
     </>
   );
 }
