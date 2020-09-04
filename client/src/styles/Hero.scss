@@ -3,26 +3,41 @@
 @import "./partials.scss";
 
 .hero-wrap {
-  background-color: $skiporange;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url("../assets/images/hero-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+
+  height: 900px;
   &__header {
-    margin-bottom: 65px;
+    margin: 200px auto 0 auto;
     text-align: center;
     width: 50%;
     font-size: 80px;
     font-family: $bold;
     color: $white;
-    background-color: $skiporange;
   }
   &__body {
+    margin: 65px auto;
     text-align: center;
-    width: 50%;
+    width: 60%;
     font-size: 55px;
     font-family: $bold;
     color: $white;
+  }
+  &__order {
+    margin: 0 auto;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
     background-color: $skiporange;
+    border: 0;
+    padding: 15px 50px;
   }
 }

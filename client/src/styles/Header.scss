@@ -1,37 +1,33 @@
-@import './_fonts.scss';
-@import './_mixins.scss';
-@import './partials.scss';
+@import "./_fonts.scss";
+@import "./_mixins.scss";
+@import "./partials.scss";
 
-.header{
-    font-family:$bold;
-    width:$full;
-    height:6rem;
-    color:$white;
-    background-color:$skiporange;
-    display:flex;
-    justify-content: $between;
-    padding:$leveltwo;
-    align-items: $middle;
+.header {
+  font-family: $bold;
+  width: $full;
+  height: 6rem;
+  color: $white;
+  display: flex;
+  justify-content: $between;
+  padding: $leveltwo;
+  align-items: $middle;
 }
 
-.header-right{
-    width:375px;
-    display:flex;
-    justify-content: $even;
+.header-right {
+  width: 375px;
+  display: flex;
+  justify-content: $even;
 }
 
-.header-logo{
-    width:9rem;
-    
+.header-logo {
+  width: 9rem;
 }
 
-.header-right_icon{
-    width:8rem;
-    height:3rem;
-    
+.header-right_icon {
+  width: 8rem;
+  height: 3rem;
 }
 
-.header-right_icon--1{
-    width:6rem;
-    
+.header-right_icon--1 {
+  width: 6rem;
 }
