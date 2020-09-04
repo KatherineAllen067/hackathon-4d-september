@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import "../styles/Hero.scss";
 
-
-function Hero(){
-    return(
-        <>
-        <h1>Hero</h1>
-        </>
-    )
+export default function Hero() {
+  return (
+    <div className="hero-wrap">
+      <div className="hero-wrap__header">Local Reimagined</div>
+      <div className="hero-wrap__body">Skip the Dishes, not your local</div>
+    </div>
+  );
 }
 
 export default Hero;

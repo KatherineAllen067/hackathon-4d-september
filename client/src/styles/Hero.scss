@@ -1,0 +1,28 @@
+@import "./fonts.scss";
+@import "./mixins.scss";
+@import "./partials.scss";
+
+.hero-wrap {
+  background-color: $skiporange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__header {
+    margin-bottom: 65px;
+    text-align: center;
+    width: 50%;
+    font-size: 80px;
+    font-family: $bold;
+    color: $white;
+    background-color: $skiporange;
+  }
+  &__body {
+    text-align: center;
+    width: 50%;
+    font-size: 55px;
+    font-family: $bold;
+    color: $white;
+    background-color: $skiporange;
+  }
+}
